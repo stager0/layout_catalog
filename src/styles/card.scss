@@ -140,10 +140,11 @@
     &#{$i}:hover {
       transition-duration: 300ms;
       transform: scale(1.2);
+      z-index: 1;
     }
 
     &#{$i}:hover > &__text {
-      color: #34568b;
+      color: $title-hover-color;
     }
   }
 }
